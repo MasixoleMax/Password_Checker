@@ -1,4 +1,4 @@
-describe("validates password", function (){
+describe("validates is valid", function (){
   let password = "Masixole25";
   it ("should have more than 8 charcters", function () {
    expect(password_is_valid(password)).toBe(true)
@@ -20,7 +20,7 @@ describe("validates password", function (){
     expect(password_is_valid(password)).toBe(true)
   });
 })
-  describe("validates password", function (){
+  describe("passwor is ok", function (){
     let passwordOK = "MASIXOLE5";
 
   it ("should take atleast 3 conditions", function () {
